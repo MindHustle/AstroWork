@@ -1,0 +1,521 @@
+/* ===== RESPONSIVE NAVBAR START ===== */
+@media (max-width: 700px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo-text {
+        display: none;
+    }
+
+    .mobile-menu {
+        width: 100%;
+    }
+
+    .mobile-links li a {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+/* ===== RESPONSIVE NAVBAR END ===== */
+/* ===== FOOTER RESPONSIVE START ===== */
+@media (max-width: 480px) {
+    .footer-brand img {
+        width: 75px;
+    }
+
+    .footer-brand p {
+        font-size: 13px;
+    }
+
+    .footer-socials a {
+        width: 38px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .footer-copy {
+        font-size: 12px;
+    }
+}
+
+/* ===== FOOTER RESPONSIVE END ===== */
+/* ===== HERO RESPONSIVE START ===== */
+@media (max-width: 992px) {
+    .hero-content h1 {
+        font-size: 42px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 36px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 360px) {
+    .hero-content h1 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 12px;
+    }
+}
+
+/* ===== HERO RESPONSIVE END ===== */
+/* ===== WHO WE ARE RESPONSIVE START ===== */
+@media (max-width: 900px) {
+    .who-container {
+        gap: 50px;
+        padding: 0 30px;
+    }
+
+    .who-image img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 700px) {
+    .who-container {
+        justify-content: center;
+        text-align: center;
+        padding: 0 25px;
+    }
+
+    .who-image {
+        display: none;
+    }
+
+    .who-text {
+        max-width: 600px;
+    }
+
+    .who-text p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .who-we-are {
+        padding: 80px 15px;
+    }
+
+    .who-text h2 {
+        font-size: 28px;
+    }
+
+    .who-text p {
+        font-size: 14px;
+    }
+}
+
+/* ===== WHO WE ARE RESPONSIVE END ===== */
+@media (max-width: 900px) {
+    .showcase-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .creative-showcase {
+        padding: 70px 0;
+    }
+
+    .creative-showcase .container {
+        padding: 0 20px;
+    }
+
+    .showcase-title {
+        font-size: 28px;
+    }
+
+    .showcase-sub {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    .showcase-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .why-choose .container {
+        padding: 0 20px;
+    }
+
+    .why-title {
+        font-size: 28px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== ABOUT PAGE RESPONSIVE START ===== */
+@media (max-width: 1024px) {
+    .about-hero .hero-content {
+        max-width: 800px;
+        width: 80%;
+    }
+
+    .about-hero .hero-content p {
+        font-size: 17px;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-hero .hero-content h1 {
+        font-size: 56px;
+    }
+
+    .about-hero .hero-content p {
+        font-size: 16px;
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-hero .hero-content h1 {
+        font-size: 42px;
+    }
+
+    .about-hero .hero-content p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-hero .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .about-hero .hero-content p {
+        font-size: 15px;
+        max-width: 90%;
+        line-height: 1.6;
+        word-wrap: break-word;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-hero .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .about-hero .hero-content p {
+        font-size: 14px;
+        max-width: 95%;
+        line-height: 1.5;
+    }
+}
+
+/* ===== ABOUT PAGE RESPONSIVE END ===== */
+/* ===== ABOUT CONTENT RESPONSIVE START ===== */
+
+@media (max-width: 900px) {
+    .vision-mission .container {
+        grid-template-columns: 1fr;
+    }
+
+    .about-visual .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .visual-img {
+        display: none;
+    }
+
+    .vm-wrapper {
+        max-width: 1000px;
+        width: 80%;
+        display: block;
+    }
+
+    .env-image {
+        display: none;
+    }
+}
+
+.env-text {
+    flex: 1;
+    text-align: center;
+}
+
+@media (max-width: 745px) {
+    .about-intro {
+        padding: 40px 15px;
+    }
+
+    .vm-box {
+        padding: 20px;
+    }
+
+    .vision-mission {
+        padding: 20px 15px;
+    }
+
+    .creative-env {
+        padding: 26px 18px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .about-intro h2,
+    .visual-text h2 {
+        font-size: 28px;
+    }
+
+    .about-intro p,
+    .vm-box p,
+    .visual-text p {
+        font-size: 15px;
+    }
+
+    .about-intro .container,
+    .vision-mission .container,
+    .about-visual .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .about-intro h2,
+    .visual-text h2 {
+        font-size: 24px;
+    }
+
+    .about-intro p,
+    .vm-box p,
+    .visual-text p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+}
+
+/* ===== ABOUT CONTENT RESPONSIVE END ===== */
+/* ===== SERVICE HERO RESPONSIVE START ===== */
+@media (max-width: 1024px) {
+    .service-hero .service-hero-content {
+        max-width: 800px;
+        width: 80%;
+    }
+
+    .service-hero-content p {
+        font-size: 17px;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-hero-content h1 {
+        font-size: 56px;
+    }
+
+    .service-hero-content p {
+        font-size: 16px;
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-hero-content h1 {
+        font-size: 42px;
+    }
+
+    .service-hero-content p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .service-hero-content p {
+        font-size: 15px;
+        max-width: 90%;
+        line-height: 1.6;
+        word-wrap: break-word;
+    }
+}
+
+/* ===== SERVICE HERO RESPONSIVE END ===== */
+/* ===== SERVICES SECTION RESPONSIVE START ===== */
+@media (max-width: 768px) {
+    .services-section {
+        padding: 20px 40px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .services-container h2 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .services-section {
+        padding: 20px;
+    }
+
+    .service-card {
+        padding: 28px 22px;
+    }
+
+    .service-card h3 {
+        font-size: 20px;
+    }
+
+    .service-card p {
+        font-size: 15px;
+    }
+}
+/* ===== SERVICES SECTION RESPONSIVE END ===== */
+/* ===== CONTACT HERO RESPONSIVE START ===== */
+@media (max-width: 1024px) {
+    .contact-hero-content {
+        max-width: 800px;
+        width: 80%;
+    }
+
+    .contact-hero-content p {
+        font-size: 17px;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-hero-content h1 {
+        font-size: 56px;
+    }
+
+    .contact-hero-content p {
+        font-size: 16px;
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-hero-content h1 {
+        font-size: 42px;
+    }
+
+    .contact-hero-content p {
+        font-size: 16px;
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .contact-hero-content p {
+        font-size: 15px;
+        max-width: 90%;
+        line-height: 1.6;
+        word-wrap: break-word;
+    }
+}
+/* ===== CONTACT HERO RESPONSIVE END ===== */
+/* ===== CONTACT FORM RESPONSIVE START ===== */
+@media (max-width: 900px) {
+    .contact-container {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 800px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-image-box {
+        display: none;
+    }
+
+    .contact-form-box {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section {
+        padding: 40px 20px;
+    }
+
+    .contact-form-box {
+        padding: 35px 25px;
+    }
+
+    .contact-form-box h2 {
+        font-size: 28px;
+    }
+
+    .contact-form-box p {
+        font-size: 14px;
+    }
+}
+/* ===== CONTACT FORM RESPONSIVE END ===== */
