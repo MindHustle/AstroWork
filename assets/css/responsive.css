@@ -519,3 +519,9 @@
     }
 }
 /* ===== CONTACT FORM RESPONSIVE END ===== */
+@media (max-width: 310px) {
+    .creative-showcase {
+        padding: 10px 0;
+    }
+
+}
